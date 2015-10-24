@@ -134,14 +134,14 @@ windowDef Desktop
 	onNamedEvent updateLightningMod {
 		
 		if("gui::haveLightning" == 0){
-			set "item_8::matcolor" "1,0,0,1";
+			set "item_10::matcolor" "1,0,0,1";
 		}
 		else{
-			set "item_8::matcolor" "0,1,1,1";
+			set "item_10::matcolor" "0,1,1,1";
 		}
 		
 		if("gui::enableLightning" == 1){
-			set "item_8::matcolor" "0,0.976,0.486,1";	
+			set "item_10::matcolor" "0,0.976,0.486,1";	
 		}
 	}
 
@@ -2257,7 +2257,7 @@ windowDef Desktop
 	windowDef inventory_grid
 	{
 		rect	0,1,640,480
-		visible	1
+		visible	0
 		windowDef item_0
 		{
 			rect	442,84,100,100
@@ -2273,7 +2273,7 @@ windowDef Desktop
 		}
 		windowDef item_1
 		{
-			rect	400,172,100,100
+			rect	402,325,100,100
 			visible	1
 			background	"gfx/guis/hud/valbar"
 			matcolor	0,1,1,1
@@ -2297,7 +2297,7 @@ windowDef Desktop
 		}
 		windowDef item_3
 		{
-			rect	397,327,100,100
+			rect	397,170,100,100
 			visible	1
 			background	"gfx/guis/hud/valbar"
 			matcolor	0,1,1,1
@@ -2323,7 +2323,7 @@ windowDef Desktop
 		}
 		windowDef item_10
 		{
-			rect	519,323,100,100
+			rect	517,324,100,100
 			visible	1
 			background	"gfx/guis/hud/valbar"
 			matcolor	1,0,0,1
@@ -2377,7 +2377,7 @@ windowDef Desktop
 		}
 		windowDef ggCraftLightning
 		{
-			rect	410,354,47,47
+			rect	413,352,47,47
 			visible	1
 			background	"gfx/guis/ggCraftLightning"
 			matcolor	1,1,1,1
